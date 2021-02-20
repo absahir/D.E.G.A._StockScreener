@@ -7,22 +7,13 @@
 
 ## 1. Summary.
 
-Our project is meant to serve as a Proof of Concept. We achieved this by gathering data from the Twitter API. We analyze 20,000 tweets from various finance gurus and influencers within a week timeframe. With the data we gathered, we fetched tickers using the dollar symbol. We counted the tickers to find the ones that were being talked the most. Then we obtained the top 10 tickers and we analyzed the correlation of those tickers. 
+Our project is meant to serve as a Proof of Concept. We achieved this by gathering data from the Twitter API. We analyze 20,000 tweets from various finance gurus and influencers within a week timeframe. With the data we gathered, we fetched tickers using the dollar symbol. We counted the tickers to find the ones that were being talked the most. Then we obtained the top tickers and we analyzed the correlation of those tickers. 
 
-Our top 10 looked like this
+Our top tickers looked like this:
 
-1. TLRY
-2. TSLA
-3. SNDL
-4. TWTR
-5. DIS
-6. NVDA
-7. AAPL
-8. SPY
-9. GME
-10.
+<img src ="Pictures/ticker_symbols.png" alt="twitter" width="300"/>
 
-
+From our twitter data, the ticker being talked the most is Tesla.
 
 ## 2. Tools used.
 
@@ -93,6 +84,7 @@ The financial data on the other hand was fetched from yfinance. The information 
 
 ## 4. Link to our code.
 
-* [Notebook of the code](DEGA-Copy1.ipynb)
+* [Notebook of the code](DEGA.ipynb)
+* [DEGA tool- a tool to save tweets](DEGA_TOOL.ipynb)
 
 
