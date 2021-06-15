@@ -7,7 +7,7 @@
 
 ## 1. Summary.
 
-Our project is meant to serve as a Proof of Concept. We achieved this by gathering data from the Twitter API. We analyze 20,000 tweets from various finance gurus and influencers within a week timeframe. With the data we gathered, we fetched tickers using the dollar symbol. We counted the tickers to find the ones that were being talked the most. Then we obtained the top tickers and we analyzed the correlation of those tickers. 
+This is a Proof of Concept. We achieved this by gathering data from the Twitter API. We analyze 20,000 tweets from various finance gurus and influencers within a week timeframe. With the data we gathered, we fetched tickers using the dollar symbol. We counted the tickers to find the ones that were being talked the most. Then we obtained the top tickers and we analyzed the correlation of those tickers. 
 
 Our top tickers looked like this:
 
@@ -78,11 +78,11 @@ from textblob import TextBlob
 
 <img src ="Pictures/twitter_stock_influencers.jpg" alt="twitter" width="300"/>
 
-The data from the Project was fetched from the twitter API. It compiled of tweets from 100 different people, finance gurus and influencers. We fetched the data from 4 sets of 25. The data is from Feb 8 to 13th. 200 tweets are being fetched per person a total of 20,000 tweets.
+The data was fetched from the twitter API. It compiled of tweets from 100 different people, finance gurus and influencers. We fetched the data from 4 sets of 25. The data is from Feb 8 to 13th. 200 tweets are being fetched per person a total of 20,000 tweets.
 
 The financial data on the other hand was fetched from yfinance. The information being fetched from each ticker is the Open, High, Low, Close, Adj Close and Volume.
 
-## 4. Link to our code.
+## 4. Link to the code.
 
 * [Notebook of the code](DEGA.ipynb)
 * [DEGA tool- a tool to save tweets](DEGA_TOOL.ipynb)
